@@ -1,0 +1,28 @@
+{
+  "name": "nodetodo",
+  "version": "1.0.0",
+  "description": "single page node vs agular",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node.js"   ,
+    "test": "mocha"  
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "dangtung789",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.3",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.1.0"
+  }
+}
